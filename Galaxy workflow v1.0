@@ -3,3 +3,4 @@ Intervals file: BRCADirect.v1.0.bed.intervals
 
 Step One: Input datasets 1 and 2 into workflow
 Step Two: Input FastQC's for both datasets 
+Step Three: Input alignment tools (Map with BWA and Collect Alignment Summary Metrics) 
