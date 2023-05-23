@@ -6,3 +6,4 @@ Step Two: Input FastQC's for both datasets. Galaxy Version 0.73+galaxy0.
 Step Three: Input alignment tool Map with BWA. Galaxy version 0.7.17.5. 
 Step Four: Input tool to Collect Alignment Summary Metrics. Galaxy Version 2.18.2.2. 
 Step Five: Input GATK4 Mutect2 tool for SNV calling. Galaxy Version 4.1.7.0+galaxy1. 
+Step Six: Input MultiQC tool for FastQC and Alignment. Galaxy Version 1.11+galaxy1. 
