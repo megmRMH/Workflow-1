@@ -2,8 +2,8 @@ Input into history: RMH200SolidBRCA-Blend-T_S95_R1_001.fastq.gz & RMH200SolidBRC
 Intervals file: BRCADirect.v1.0.bed.intervals
 
 Step One: Input datasets 1 and 2 into workflow
-Step Two: Input FastQC's for both datasets. Galaxy Version 0.73+galaxy0. 
-Step Three: Input alignment tool Map with BWA. Galaxy version 0.7.17.5. 
-Step Four: Input tool to Collect Alignment Summary Metrics. Galaxy Version 2.18.2.2. 
-Step Five: Input GATK4 Mutect2 tool for SNV calling. Galaxy Version 4.1.7.0+galaxy1. 
-Step Six: Input MultiQC tool for FastQC and Alignment. Galaxy Version 1.11+galaxy1. 
+Step Two: Input FastQC's for both datasets. Outputs in txt and html file format. Galaxy Version 0.73+galaxy0. 
+Step Three: Input alignment tool Map with BWA. Output in BAM file format. Galaxy version 0.7.17.5. 
+Step Four: Input tool to Collect Alignment Summary Metrics. Output in tabular file format. Galaxy Version 2.18.2.2. 
+Step Five: Input GATK4 Mutect2 tool for SNV calling. Output in VCF format. Galaxy Version 4.1.7.0+galaxy1. 
+Step Six: Input MultiQC tool for FastQC and Alignment. Output in html and tabular file formats. Galaxy Version 1.11+galaxy1. 
